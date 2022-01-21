@@ -1,0 +1,31 @@
+
+.container3 {
+    background-image: url(img2.jpg);
+    border: rgb(51, 46, 54);
+    border-width: 2px;
+    border-style: solid;
+}
+.img {
+    align-content: center;
+    padding-left: 30%;
+    size: 20px;
+    border-radius: 30px;
+    opacity: 0.75;
+    
+}
+.pad {
+    padding-left: 35%;
+}
+.login {
+    background-color: rgba(81, 81, 138, 0.473);
+    
+}
+.foot{
+    background-color: rgb(120, 135, 141);
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    border-radius: 20px;
+    box-sizing: content-box;
+}

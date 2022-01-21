@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 95vh;
+    /* position: absolute; */
+}
+
+h1 small{
+    font-size: 20px;
+}
+h1{
+    word-spacing: 5px;
+    color: darkslateblue;
+    margin-top: 2%;
+    padding: 10px 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.btn{
+    display: flex;
+    right: 5%;
+    float: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+}
+.btn button{
+    color: rgb(17, 12, 2);
+    display: flex;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 12px;
+    
+}
+.right img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding: 12px;
+
+
+}
+.udrop img{
+    width: 50px;
+    animation:bubble 6s linear infinite;
+
+}
+.udrop{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    bottom: -100px;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(1);
+        opacity: 0;
+    }
+    50%{
+       
+        opacity: 1;
+    }
+    70%{
+       
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.udrop img:nth-child(1){
+    animation-delay: 1s;
+}
+.udrop img:nth-child(2){
+    animation-delay: 3.5s;
+}.udrop img:nth-child(3){
+    animation-delay: 2s;
+}.udrop img:nth-child(4){
+    animation-delay: 1.5s;
+}.udrop img:nth-child(5){
+    animation-delay: 2s;
+}
+.udrop img:nth-child(){
+    animation-delay: 1s;
+}
